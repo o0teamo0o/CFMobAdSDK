@@ -1,0 +1,6 @@
+framework module CFAdSDK {
+  umbrella header "CFAdSDK.h"
+
+  export *
+  module * { export * }
+}
