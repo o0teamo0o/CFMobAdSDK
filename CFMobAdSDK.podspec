@@ -1,6 +1,6 @@
-Pod::Spec.new do |s|
+:Pod::Spec.new do |s|
     s.name         = "CFMobAdSDK"
-    s.version      = "1.0.0"
+    s.version      = "1.0.6"
     s.ios.deployment_target = '7.0'
     s.summary      = "广告sdk,一个简单的广告SDK."
     s.homepage     = "https://github.com/lixianshen/CFMobAdSDK"
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     #s.source_files  = "CFMobAdSDK/*"
     s.resources          = "CFMobAdSDK/CFMobAdSDK.bundle"
     s.frameworks = 'Foundation', 'UIKit', 'CoreLocation', 'AdSupport'
-    s.vendored_frameworks = 'CFMobAdSDK.framework'
+    s.vendored_frameworks = 'CFMobAdSDK/CFMobAdSDK.framework'
     s.requires_arc = true
 end
