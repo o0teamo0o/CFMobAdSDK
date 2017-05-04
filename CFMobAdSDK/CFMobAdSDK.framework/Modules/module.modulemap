@@ -1,5 +1,5 @@
-framework module CFAdSDK {
-  umbrella header "CFAdSDK.h"
+framework module CFMobAdSDK {
+  umbrella header "CFMobAdSDK.h"
 
   export *
   module * { export * }
